@@ -1,0 +1,295 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>96b23a7b-3e01-4941-9226-f351e1c5136c</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>tf_golbin\1_hello.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>PythonApplication1</Name>
+    <RootNamespace>PythonApplication1</RootNamespace>
+    <InterpreterId>CondaEnv|CondaEnv|my_tensorflow_01</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="deco\a.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="package1\class1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="package1\class2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="package1\main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="package1\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="phone\Ktx.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_oop_git\g_main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_oop_git\g_person.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_oop_git\h_person.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_qt\login.py" />
+    <Compile Include="py_qt\start.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_tutor\01_datatype.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_tutor\02_type_conversion.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_tutor\03_opcode.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_tutor\04_decision_making.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_tutor\06_for_loop.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_tutor\05_while_loop.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_tutor\07_nested_loop.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_tutor\08_break.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_tutor\09_search_list.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_tutor\10_continue.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_tutor\11_pass.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_tutor\12_iter.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_tutor\13_modules.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_tutor\14_modules.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_tutor\15_math.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_tutor\my_support.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sein\bs_music.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sein\bs_request.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sein\ctrl.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sein\model.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sein\selenium.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sein\selenium2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sein\view.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_first_contact\01_hello.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bs_git\main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_jj_easy_git\2_linear_classifier\main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_jj_easy_git\2_linear_classifier\ops.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_jj_easy_git\2_linear_classifier\utils.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_oop_git\a_class.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_oop_git\b_instance.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_oop_git\c_attribute.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_oop_git\d_method.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_oop_git\e_static_method.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_oop_git\f_point.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_qt\pyqt5.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_golbin\4_feed_dict.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_kim\module1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_kim\module2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="phone\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_golbin\3_add.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_coding_14\01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_coding_14\02.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_coding_14\03_turtle.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_coding_14\04_calender.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_coding_14\05_grade.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_coding_14\06_tax.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_coding_14\07_moneyunit.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_coding_14\08_grade.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_coding_14\09_rps.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_coding_14\10_factorial.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_coding_14\11_population.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_coding_14\class1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_basic\01_multiply.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_golbin\1_hello.py" />
+    <Compile Include="bs_blog\bs4_1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bs_blog\class_demo.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_numpy.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_golbin\2_version.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_basic\02_constant.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_basic\03_variable.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_basic\04_feeding.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_basic\05_mnist.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_basic\06_init.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_basic\class1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_tkinter\lotto.py" />
+    <Compile Include="tf_basic\rps.py" />
+    <Compile Include="py_tkinter\01_hello.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_tkinter\02_hello.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_tkinter\04_.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_tkinter\mou.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_tkinter\03_.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="CondaEnv|CondaEnv|my_tensorflow_01" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="deco\" />
+    <Folder Include="sein\" />
+    <Folder Include="package1\" />
+    <Folder Include="py_tutor\" />
+    <Folder Include="py_qt\" />
+    <Folder Include="tf_first_contact\" />
+    <Folder Include="tf_jj_easy_git\" />
+    <Folder Include="tf_jj_easy_git\2_linear_classifier\" />
+    <Folder Include="bs_git\" />
+    <Folder Include="tf_kim\" />
+    <Folder Include="py_oop_git\" />
+    <Folder Include="py_coding_14\" />
+    <Folder Include="py_tkinter\" />
+    <Folder Include="bs_blog\" />
+    <Folder Include="tf_basic\" />
+    <Folder Include="phone\" />
+    <Folder Include="tf_golbin\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
